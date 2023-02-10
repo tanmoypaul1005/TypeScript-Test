@@ -14,3 +14,10 @@ let ee: string | number;
 //array
 let ad: string[] = [];
 let dc: (number | string)[] = [];
+
+//object
+let ff:{
+    age:number
+    name:string
+};
+

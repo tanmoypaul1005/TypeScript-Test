@@ -11,3 +11,5 @@ let ee;
 //array
 let ad = [];
 let dc = [];
+//object
+let ff;
