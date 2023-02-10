@@ -9,6 +9,8 @@ a.push("1")
 let ab: number;
 let ac: string;
 
+let ee: string | number;
+
 //array
 let ad: string[] = [];
 let dc: (number | string)[] = [];

@@ -7,6 +7,7 @@ const a = ["a", "b"];
 a.push("1");
 let ab;
 let ac;
+let ee;
 //array
 let ad = [];
 let dc = [];
