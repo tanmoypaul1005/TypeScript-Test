@@ -1,12 +1,18 @@
+// function
 function multiple(a: number, b: number) {
     return a + b
 }
 console.log(multiple(1, 2))
 
-let array: number[]
+//array
+let array: (number | string)[] = []
+array = [1, 2, 3, "kk"]
 
-array = [1, 2, 3]
-
+//variable
 let a: string;
-let b: number;
+let b: number | string;
+
+
+//OBJECT
+let c: object
 
