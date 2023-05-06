@@ -11,3 +11,5 @@ console.log(multiple(1, 2))
 const multiple2 = (a: number, b: number, c: { name: string, age: number, d: stringOrNumber }): number => {
     return a + b
 }
+
+let myFun: (x: number, y: number) => number
