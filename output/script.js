@@ -12,3 +12,7 @@ let a;
 let b;
 //OBJECT
 let c;
+c = {
+    name: "kk",
+    age: 1
+};

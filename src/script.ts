@@ -14,5 +14,13 @@ let b: number | string;
 
 
 //OBJECT
-let c: object
+let c: {
+    name: string
+    age: number
+}
+
+c = {
+    name: "kk",
+    age: 1
+}
 
