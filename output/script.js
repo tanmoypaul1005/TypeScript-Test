@@ -10,6 +10,7 @@ array = [1, 2, 3, "kk"];
 //variable
 let a;
 let b;
+let d;
 //OBJECT
 let c;
 c = {

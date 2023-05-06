@@ -11,6 +11,7 @@ array = [1, 2, 3, "kk"]
 //variable
 let a: string;
 let b: number | string;
+let d:any
 
 
 //OBJECT
