@@ -1,6 +1,6 @@
 class Player {
-    name: string
-    age: number
+    private name: string
+    readonly age: number
 
     constructor(a: string, b: number) {
         this.name = a;
