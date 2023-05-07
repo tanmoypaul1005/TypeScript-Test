@@ -22,3 +22,15 @@ calculation = (a: number, b: number, type: string) => {
     }
 }
 console.log(calculation(1, 2, 'add'))
+
+let userDetails: (userInfo: {
+    name: string,
+    age: number
+}) => string
+
+userDetails = (userInfo: {
+    name: string,
+    age: number
+}) => {
+    return userInfo.name
+}
