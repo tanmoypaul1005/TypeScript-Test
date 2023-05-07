@@ -1,3 +1,17 @@
-enum RType {Success = 'success',Error = 'error',}
+class Player {
+    name: string
+    age: number
 
-enum RType2 {Success ,Error ,}
+    constructor(a: string, b: number) {
+        this.name = a;
+        this.age = b;
+    }
+
+    play() {
+        console.log("I'm " + this.name + " and I'm " + this.age + " years old.")
+    }
+}
+
+const abid=new Player("Abid",20)
+
+const Palyers: Player[]=[]
