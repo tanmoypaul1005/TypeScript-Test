@@ -12,4 +12,13 @@ const multiple2 = (a: number, b: number, c: { name: string, age: number, d: stri
     return a + b
 }
 
-let myFun: (x: number, y: number) => number
+let calculation: (x: number, y: number, type: string) => number
+
+calculation = (a: number, b: number, type: string) => {
+    if (type === 'add') {
+        return a + b
+    } else {
+        return a - b
+    }
+}
+console.log(calculation(1, 2, 'add'))
