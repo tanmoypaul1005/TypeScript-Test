@@ -5,3 +5,10 @@ let a;
 let b;
 // b="4" invalid
 // b=4 valid
+let c;
+//array
+let array1 = [""];
+let array2 = [];
+array2 = [1, 2, 3, "kk"];
+//object
+let obj1 = { name: "", age: 0 };
