@@ -18,6 +18,6 @@ array2 = [1, 2, 3, "kk"]
 //object
 let obj1: { name: string,age: number} = { name: "",age: 0}
 
-const myFun=()=>{
-
+const myFun=(a:number,b:number,c:string="Hello"):(number | string) =>{
+   return a+b
 }
