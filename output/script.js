@@ -1,2 +1,5 @@
 "use strict";
-console.log("Bangladesh");
+const userDetails = (id, details) => {
+};
+const seyHello = (id, details) => {
+};
