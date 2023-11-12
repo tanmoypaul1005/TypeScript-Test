@@ -17,3 +17,7 @@ array2 = [1, 2, 3, "kk"]
 
 //object
 let obj1: { name: string,age: number} = { name: "",age: 0}
+
+const myFun=()=>{
+
+}
